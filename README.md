@@ -1,10 +1,10 @@
 # AWS Tier 3 – 3-Tier Web Application
 
-## 📌 Overview
+## Overview
 
 Production-style **3-tier AWS architecture** designed for security, scalability, and high availability.
 
-### 🏗️ Architecture
+### Architecture
 
 ```text
 Internet
@@ -37,7 +37,7 @@ Private Database
 * Network ACLs
 * MariaDB
 
-## 🔐 Security
+## Security
 
 * Public and private subnet isolation
 * ALB as the public entry point
@@ -46,7 +46,7 @@ Private Database
 * IAM roles for AWS service access
 * Security Groups and NACLs for network control
 
-## 📈 High Availability
+## High Availability
 
 * ALB distributed across Availability Zones
 * Auto Scaling maintains multiple EC2 instances
@@ -58,7 +58,7 @@ Private Database
 
 EC2 accesses S3 using an **IAM role**, avoiding hard-coded AWS credentials.
 
-## 🗄️ Database
+## Database
 
 MariaDB is deployed in a **private subnet** and is accessible only from the application tier.
 
