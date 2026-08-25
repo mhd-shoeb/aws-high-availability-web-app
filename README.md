@@ -6,19 +6,8 @@ Production-style **3-tier AWS architecture** designed for security, scalability,
 
 ### Architecture
 
-```text
-Internet
-   ↓
-Internet Gateway
-   ↓
-Application Load Balancer
-   ↓
-Auto Scaling Group
-   ↓
-Private EC2 Instances
-   ↓
-Private Database
-```
+<img width="1536" height="1024" alt="01  AWS HIGHLY AVAILABLE ARCHITECTURE" src="https://github.com/user-attachments/assets/7dba3cc0-6813-47c3-9a7c-4d02d4e6eb24" />
+
 
 ## ☁️ AWS Services
 
